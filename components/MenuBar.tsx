@@ -20,7 +20,7 @@ export const MenuBar = () => {
   }
 
   return (
-    <div className="py-2 mb-2">
+    <div className="py-2 sticky top-0 bg-white z-1">
       <div className="flex flex-wrap gap-1">
         <BoldControl editor={editor} />
         <ItalicControl editor={editor} />
