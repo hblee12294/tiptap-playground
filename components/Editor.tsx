@@ -14,6 +14,9 @@ const Editor = () => {
       extensions={extensions}
       content={PLACEHOLDER}
       immediatelyRender={false}
+      editorContainerProps={{
+        className: "prose prose-slate max-w-none",
+      }}
     ></EditorProvider>
   );
 };
